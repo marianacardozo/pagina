@@ -1,0 +1,62 @@
+body{
+  color: white;
+  background: black;
+  margin: 20px;
+}
+
+header{
+  font-size: 80px;
+  color: red;
+    border-bottom: solid 2px white;
+  margin: 20px;
+  padding: 20px;
+  display: relative;
+   font-family: "Danfo", serif;
+}
+
+.inicio{
+  background: rgb(90,12,12);
+    font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+   font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+
+.entrada{
+  margin-right: 50px;
+}
+
+
+.descricao{
+  font-size:30px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outros{
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: solid 3px red;
+  border-radius: 20px;
+}
